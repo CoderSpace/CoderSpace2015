@@ -16,7 +16,7 @@
        
        <nav class="navbar navbar-default">
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="hope">
       <div class="navbar-header">
         
         <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
@@ -31,11 +31,12 @@
       <div class="collapse navbar-collapse" id="nav-collapse">
 
           <ul class="nav navbar-nav">
-     <li><a href="index.html">The Coderspace Story</a></li>
-     <li><a href="index.html"> Our Team</a></li>
-     <li><a href="index.html">Our Student</a></li>
-     <li><a href="index.html">Portfolio</a></li>
-       </ul>
+          <li><a href="index.html#section2" id="nav-labels">Our Story</a></li>
+          <li><a href="index.html#section3" id="nav-labels">Our Team</a></li>
+          <li><a href="index.html#section4" id="nav-labels">Our Students</a></li>
+          <li><a href="index.html#section5" id="nav-labels">Our Partners</a></li>
+          <li><a href="index.html#section6" id="nav-labels">Our Portfolio</a></li>
+        </ul>
        </nav>
         <br>
 
@@ -391,6 +392,15 @@ P1_Prod_Version=ShockwaveFlash">
         <img class="lawl" src="images/flickr.png" width="30px">
         <img class="lawl" src="images/github.png" width="30px">
    </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+                            <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+                              
+                              <script>
+                              $("#nav-collapse").find("a").click(function(){
+                                $("#nav-collapse").removeClass("in");
+});
+</script>
     
     </body>
 </html>

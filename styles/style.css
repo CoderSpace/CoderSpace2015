@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 
 .story {
@@ -14,6 +14,16 @@
     width:100%;
     z-index:1;
     height:70px;
+
+}
+#hope{
+    background-color:white;
+    padding-bottom:20px;
+    z-index:1;
+}
+.navbar-collapse{
+    /*background-color:white;*/
+    margin-top:18px;
 }
 
 body {
@@ -30,7 +40,7 @@ body {
 
 
 .navbar-brand{
-    margin-top:-20px;
+    margin-top:-22px;
 }
 
 .row1 {
@@ -175,6 +185,11 @@ p {
     margin-bottom:250px;
 }
 
+#nav-labels{
+    font-size:25px;
+    margin-bottom:15px;
+}
+
 /*#section1 {*/
 /*    background-color: lightgray;*/
 /*}*/
@@ -204,6 +219,7 @@ p {
 .navbar-nav{
     font-size:20px;
     margin-left:20px;
+    background-color:white;
 }
 
 
@@ -220,9 +236,8 @@ p {
 /*}*/
 
 .twitter-timeline{
-    background-color:#f3f3f3;
-    font-size:25px;
-    
+    background-color:white;
+    color: black;
 }
 
 #mars{
@@ -245,7 +260,7 @@ p {
         text-align:center;
         
     }
-    #death
+    #dea
 .btn, 
 .btn-default{
     width:87%;
@@ -286,3 +301,4 @@ p {
 .name{
     margin-top:-35px;
 }
+
