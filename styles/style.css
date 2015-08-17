@@ -37,6 +37,7 @@ body {
     text-align: center;
     font-size: 300%;
     font-family: 'Roboto', sans-serif;
+    padding: 10px;
 }
 
 
@@ -50,7 +51,9 @@ body {
 }
 
 #gg{
-    margin-top:90px;
+    margin-top:30px;
+    font-size:30px;
+    text-align:center;
 }
 
 
@@ -66,7 +69,7 @@ body {
 
 
  .suave{
-     margin-top:45px;
+     margin-top:90px;
      background-color: light grey;
  }
  .pedro{
@@ -125,14 +128,14 @@ p {
 
 .footer{
     width:100%;
-    background-color:gray;
+    background-color:white;
     height: 10%;
     bottom: 0;
     left: 0;
-
+    border-top:#333 solid;
 } 
 #fot{
-    background-color:gray;
+    background-color:white;
     text-align:center;
     
 }
@@ -161,8 +164,6 @@ p {
  #lawl {
     margin: 25px;
     float: right;
-    
-    
  }
  
  .poppy,
@@ -175,7 +176,8 @@ p {
  .pop1 {
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
+    padding-bottom: 15px;
     }
     
 #section2,
@@ -201,31 +203,7 @@ p {
     background-color: #333333;
 }
 
-/*#section1 {*/
-/*    background-color: lightgray;*/
-/*}*/
 
-/*#section3 {*/
-/*    background-color: lightgray;*/
-/*}*/
-
-
-/*#section5 {*/
-/*    background-color: lightgray;*/
-/*}*/
-
-.hi {
-     height: 100px;
-}
-
-
-/*.btn btn-primary btn-md {*/
-/*    text-align: center;*/
-/*}*/
-     
-     
-/*     width: 400px;*/
-/*}*/
 
 .navbar-nav{
     font-size:20px;
@@ -277,10 +255,10 @@ border-bottom: 1px solid #C0C0C0;
         text-align:center;
         
     }
-    #dea
+#dea
 .btn, 
 .btn-default{
-    width:87%;
+    width:89%;
     margin-left:90px;
     
 }
@@ -295,21 +273,24 @@ border-bottom: 1px solid #C0C0C0;
 }
 #capo{
     color:white;
-    transition: opacity 2s;
+    transition: opacity 3s;
     opacity: 0.04;
     margin: 0 auto;
-    margin-top:-190px;
+    margin-top:-200px;
     text-align:center;
     position: relative;
     width:100%;
     height:100%;
     z-index:0;
-    padding-bottom:170px;
-
+    position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   background-color:#333;
 }
 
-#capo:hover {
-    background-color:gray;
+#capo:hover, #capo:focus {
+    background-color:#333;
     transition: opacity 2s;
     opacity:1.0;
     z-index:0;
@@ -325,4 +306,50 @@ border-bottom: 1px solid #C0C0C0;
 
 .chicago{
     width:100%;
+}
+
+/*img-responsive {*/
+/*    padding-right: 10px;*/
+/*}*/
+
+
+
+
+@media (max-width: 750px){
+    .logo{
+   width:90px !important ;  
+  }
+  
+}
+
+/*@media (min-width: 330px){*/
+
+/*.btn-default{*/
+/*    width:94%;*/
+/*    margin-left:90px;*/
+
+/*}*/
+/*}*/
+
+@media (max-width: 320px){
+  .btn-default {
+    max-width:75% !important;
+  }
+   #lawl {
+    margin: 15px !important;
+ }
+ .header{
+    font-size:3.5em !important;
+    text-align:center !important;
+}
+}
+
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+
+.header{
+    font-size:6em;
+    text-align:center;
 }
