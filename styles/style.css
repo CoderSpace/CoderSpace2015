@@ -317,7 +317,7 @@ border-bottom: 1px solid #C0C0C0;
 
 @media (max-width: 750px){
     .logo{
-   width:90px !important ;  
+   width:93px !important ;  
   }
   .header{
     font-size:3.5em !important;
@@ -337,6 +337,16 @@ border-bottom: 1px solid #C0C0C0;
     font-size:3.5em !important;
     text-align:center !important;
 }
+#mars{
+    float:none;
+    padding-left:0px;
+    padding-bottom:0px;
+}
+#mars2{
+    float:none;
+    padding-right:0px;
+    padding-top:0px;
+}
 }
 
 .image { 
@@ -351,4 +361,22 @@ border-bottom: 1px solid #C0C0C0;
 
 #law{
     margin: 25px 35px;
+}
+
+@media (min-width: 768px) and (max-width: 1015px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    .logo{
+   width:93px !important ;  
+  }
 }
