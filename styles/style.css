@@ -19,6 +19,7 @@
 
 body {
     position: relative;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .whit {
@@ -119,6 +120,7 @@ p {
 #fot {
     background-color: white;
     text-align: center;
+    font-size:140%;
 }
 
 .twit1,
@@ -243,6 +245,8 @@ p {
     left: 0;
     background-color: #333;
     padding-top: 60px;
+    padding-left:10px;
+    padding-right:10px;
 }
 
 #capo:hover,
@@ -312,7 +316,7 @@ p {
     margin: 25px 35px;
 }
 
-@media (min-width: 768px) and (max-width: 1015px) {
+@media (min-width: 749px) and (max-width: 1015px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
@@ -330,3 +334,66 @@ p {
         width: 93px !important;
     }
 }
+@media(max-width: 768px){
+    .cs{
+    font-size:3em !important;
+    display:block;
+    line-height:120%;
+    }
+
+    .tagline{
+    font-size:1.0em !important;
+    width:100%;
+    }
+
+    #capo {
+        padding:0px 5px 30px 5px !important;
+        line-height:120%;
+    }
+}
+ 
+ 
+ .error {
+    background-image:url(../images/cs.png);
+    text-align: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+ }
+
+.error2{
+  margin-top:100%;  
+}
+
+.mar{
+    width:100%;
+    height:670px;
+    background-image:
+    url(http://www.transparenttextures.com/patterns/black-linen.png),
+    url(../images/thth.jpg);
+    background-color: #fcfcfc;
+    background-size:100%, cover;
+    background-repeat:no-repeat;
+    position:relative;
+    padding:20px;
+    margin:30px auto;
+    color:white;
+}
+
+.mar p{
+    position:absolute;
+    bottom:0px;
+}
+
+.cs{
+    font-size:6em;
+    display:block;
+    line-height:120%;
+}
+
+.tagline{
+    font-size:2.0em;
+    width:100%;
+}
+
+
