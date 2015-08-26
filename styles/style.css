@@ -22,6 +22,10 @@ body {
     font-family: 'Roboto', sans-serif !important;
 }
 
+p{
+    font-size:1em !important;
+}
+
 .whit {
     text-align: center;
     font-size: 300%;
@@ -334,7 +338,7 @@ p {
         width: 93px !important;
     }
 }
-@media(max-width: 420px){
+@media(max-width: 560px){
     .cs{
     font-size:3em !important;
     display:block;
@@ -396,4 +400,13 @@ p {
     width:100%;
 }
 
+.donate{
+    text-align:center;
+    border:solid #333;
+    padding:10px 10px 10px 10px;
+    width:63%;
+}
 
+.btn-size{
+    font-size:170%;
+}
