@@ -266,7 +266,7 @@ p {
 }
 
 .name {
-    margin-top: 55px;
+    margin-top:55px;
 }
 
 .chicago {
@@ -409,4 +409,8 @@ p {
 
 .btn-size{
     font-size:170%;
+}
+
+.pad-fot{
+    padding-top:15px;
 }
