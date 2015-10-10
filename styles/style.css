@@ -55,6 +55,9 @@ p{
     height: 650px;
     margin-bottom: 190px;
     margin-left: 15px;
+    /*border-bottom-color:black !important;*/
+    /*border-bottom: 2px !important;*/
+    /*border-bottom-width:1px !important;*/
 }
 
 .suave {
@@ -164,20 +167,30 @@ p {
     padding-bottom: 15px;
 }
 
+#section1,
 #section2,
 #section3,
 #section4,
 #section5 {
-    margin-bottom: 250px;
+    margin-bottom: 125px;
 }
 
-#nav-labels {
+#nav-labels,
+#nav-labels2
+{
     font-size: 25px;
     margin-bottom: -10px;
     margin-top: -10px;
     padding-bottom: 35px;
     padding-top: 35px;
+     border-radius:4px ;
 }
+#nav-labels2:hover {
+    background-color:RoyalBlue;
+    color:white;
+    border-radius:4px ;
+}
+
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
@@ -375,7 +388,7 @@ p {
     width:100%;
     height:670px;
     background-image:
-    url(http://www.transparenttextures.com/patterns/black-linen.png),
+    url(../images/black-linen.png),
     url(../images/thth.jpg);
     background-color: #fcfcfc;
     background-size:100%, cover;
@@ -418,5 +431,5 @@ p {
 }
 
 #proj-thumb{
-    min-height:540px !important;
+    min-height:500px !important;
 }
