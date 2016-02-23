@@ -275,12 +275,12 @@ p {
     z-index: 0;
 }
 
-.caption {
+/* .caption {
     margin-top: -55px;
-}
+} */
 
 .name {
-    margin-top:55px;
+  /*  margin-top:55px; */
     text-align:center
 }
 
@@ -430,6 +430,28 @@ p {
     padding-top:15px;
 }
 
-#proj-thumb{
+/* #proj-thumb{
     min-height:500px !important;
+} */
+
+#powerhouse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+@media(max-width: 970px) {
+ 
+    #powerhouse {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+   }
+    
 }
