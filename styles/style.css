@@ -7,6 +7,11 @@
     height: 70px;
 }
 
+.img-partners {
+    display:inline-block;  
+    margin:25px;
+}
+
 #hope {
     background-color: white;
     padding-bottom: 20px;
@@ -74,7 +79,12 @@ p{
     font-size: 100%;
 }
 
-[id^=section] {
+#who-we-are,
+#programs,
+#team,
+#students,
+#partners,
+#clients {
     padding-top: 90px;
 }
 
@@ -167,11 +177,12 @@ p {
     padding-bottom: 15px;
 }
 
-#section1,
-#section2,
-#section3,
-#section4,
-#section5 {
+#who-we-are,
+#programs,
+#team,
+#students,
+#partners,
+#clients{
     margin-bottom: 125px;
 }
 
@@ -383,8 +394,8 @@ p {
     width:100%;
     height:670px;
     background-image:
-    url(../images/black-linen.png),
-    url(../images/thth.jpg);
+    url(../images/hero-image-overlay.png),
+    url(../images/hero-image.jpg);
     background-color: #fcfcfc;
     background-size:100%, cover;
     background-repeat:no-repeat;
@@ -450,3 +461,4 @@ p {
    }
     
 }
+
