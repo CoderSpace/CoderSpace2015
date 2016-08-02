@@ -11,6 +11,10 @@
     display:inline-block;  
     margin:25px;
 }
+.img-partners2 {
+    margin:0 auto 25px;
+}
+
 
 #hope {
     background-color: white;
@@ -286,7 +290,7 @@ p {
     z-index: 0;
 }
 
-.name {
+.name, .title {
     text-align:center
 }
 
@@ -459,6 +463,12 @@ p {
         margin-bottom: 5%;
         margin-top: 5%;
    }
+   
     
 }
-
+@media(max-width: 1024px) {
+.img-partners2 {
+    margin:0px 0px 25px 25px;
+    width:20%;
+}
+}
