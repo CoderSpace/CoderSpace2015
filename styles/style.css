@@ -9,12 +9,15 @@
 
 .img-partners {
     display:inline-block;  
-    margin:25px;
+    /*margin:25px;*/
 }
 .img-partners2 {
     margin:0 auto 25px;
 }
 
+.img-partner-resilience {
+    margin-left:100px;
+}
 
 #hope {
     background-color: white;
